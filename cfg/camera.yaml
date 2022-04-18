@@ -1,0 +1,8 @@
+# All settable parameters can be found: https://gitlab.com/boldhearts/ros2_v4l2_camera
+v4l2_camera_node:
+  ros__parameters:
+    # Max resolution / higher latency
+    # image_size: [1280, 720]
+
+    # Default resolution / low latency
+    image_size: [640, 480]
