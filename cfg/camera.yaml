@@ -6,3 +6,4 @@ v4l2_camera_node:
 
     # Default resolution / low latency
     image_size: [640, 480]
+    video_device: "/dev/video2"
